@@ -1,0 +1,131 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+header{
+  background-color: brown;
+  width: 100%;
+  height:60px;
+}
+.logo img{
+  width:100px;
+  height:40px;
+  float:left;
+  margin:10px;
+}
+.a1{
+  float:right;
+  margin:20px;
+}
+.a2{
+  padding:30px;
+}
+h1{
+  font-size: 28px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+p{
+  width:40%;
+  padding: 10px;
+  float:left;
+  margin-left: 40px;
+}
+img{
+  width:250px;
+  height:200px;
+}
+.img{
+  float:right;
+  margin-right:40px;
+}
+.img1{
+  float:left;
+  margin-left: 50px;
+  
+  
+}
+.art1{
+  height:300px;
+}
+.img1 img{
+  padding: 0 50px;
+}
+h2{
+  margin-bottom: 20px;
+  
+}
+.img2{
+  float:left;
+  margin-left: 50px;
+}
+.img2 img{
+  padding:0 50px;
+  margin-top: 20px;
+}
+footer{
+  height:60px;
+  background-color: brown;
+}
+main{
+  height:800px;
+}
+.top{
+  background-color: green;
+  width:30px;
+  height:30px;
+  border-radius: 50%;
+  position: fixed;
+  right:20px;
+  bottom:20px;
+  
+}
